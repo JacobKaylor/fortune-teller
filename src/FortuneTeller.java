@@ -71,19 +71,19 @@ public class FortuneTeller {
 		String transport;
 
 		if (color.toLowerCase().equals("red")) {
-			transport = "a skateboard";
+			transport = "skateboard";
 		} else if (color.toLowerCase().equals("orange")) {
-			transport = "a dragon";
+			transport = "dragon";
 		} else if (color.toLowerCase().equals("yellow")) {
-			transport = "an unicycle";
+			transport = "unicycle";
 		} else if (color.toLowerCase().equals("green")) {
-			transport = "a go-Kart";
+			transport = "go-Kart";
 		} else if (color.toLowerCase().equals("blue")) {
-			transport = "a Tesla";
+			transport = "Tesla";
 		} else if (color.toLowerCase().equals("indigo")) {
-			transport = "your own two feet";
+			transport = "their own two feet";
 		} else {
-			transport = "a jet pack";
+			transport = "jet pack";
 		}
 
 		double bankBalance;
